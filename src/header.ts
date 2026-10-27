@@ -22,6 +22,7 @@ export type HeaderInfo = {
 
 /**
  * Template where each field name is prefixed by $ and is padded with _
+ * Added a few underscores to fit 42 Angouleme long email address
  */
 const genericTemplate = `
 ********************************************************************************
@@ -29,7 +30,7 @@ const genericTemplate = `
 *                                                         :::      ::::::::    *
 *    $FILENAME__________________________________        :+:      :+:    :+:    *
 *                                                     +:+ +:+         +:+      *
-*    By: $AUTHOR________________________________    +#+  +:+       +#+         *
+*    By: $AUTHOR___________________________________ +#+  +:+       +#+         *
 *                                                 +#+#+#+#+#+   +#+            *
 *    Created: $CREATEDAT_________ by $CREATEDBY_       #+#    #+#              *
 *    Updated: $UPDATEDAT_________ by $UPDATEDBY_      ###   ########.fr        *
